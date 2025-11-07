@@ -91,7 +91,7 @@ To visually verify how **LocalMind AI** secures user data, here’s how the same
 
 | App View (Decrypted) | Database View (Encrypted) |
 |:---------------------:|:-------------------------:|
-| ![Decrypted Notes](images/decrypted (same data).PNG) | ![Encrypted DB](images/encrypted (same data).PNG) |
+| ![Decrypted Notes](images/decrypted(same_data).PNG) | ![Encrypted DB](images/encrypted(same_data).PNG) |
 
 🧠 Even if someone opens your local SQLite database, all note text is stored as unreadable AES-encrypted strings — protecting your private data completely.
 
