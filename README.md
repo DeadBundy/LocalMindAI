@@ -83,7 +83,19 @@ Ensure .gitignore contains:
 ### 4️⃣ Run the App
 flutter run
 
+---
 
+## 🧾 Encryption Proof  
+
+To visually verify how **LocalMind AI** secures user data, here’s how the same note appears in the app vs. inside the local database:
+
+| App View (Decrypted) | Database View (Encrypted) |
+|:---------------------:|:-------------------------:|
+| ![Decrypted Notes](images/decrypted (same data).PNG) | ![Encrypted DB](images/encrypted (same data).PNG) |
+
+🧠 Even if someone opens your local SQLite database, all note text is stored as unreadable AES-encrypted strings — protecting your private data completely.
+
+---
 
 
 Built with 💙 using Flutter, Groq, and a passion for ethical AI innovation.
